@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+
+        /*Send To Bottom of Screen*/
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      body {
+        margin: 0px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        background-color: hsl(0, 0%, 8%);
+      }
+
+      main {
+        flex: 1;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      main * {
+        color: hsl(0, 0%, 100%);
+        font-family: "Inter", serif;
+      }
+
+      .card {
+        background-color: hsl(0, 0%, 12%);
+        min-width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .profile {
+        text-align: center;
+      }
+
+      .profile .avatar {
+        width: 80px;
+        margin: 15px;
+        border-radius: 100%;
+      }
+
+      .profile h1 {
+        font-weight: 700;
+        font-size: 1.75rem;
+        margin: 0px;
+      }
+
+      .profile h2 {
+        margin: 0px;
+        margin-bottom: 1.5rem;
+
+        color: hsl(75, 94%, 57%);
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .profile p {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0px;
+      }
+
+      ul > a {
+        text-decoration: none;
+      }
+
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 0.75rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+
+        background-color: hsl(0, 0%, 20%);
+
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="profile">
+          <img class="avatar" src="./assets/images/avatar-jessica.jpeg" />
+          <h1>Jessica Randall</h1>
+          <h2>London, United Kingdom</h2>
+          <p>"That is not a photo of me :P"</p>
+        </div>
+
+        <ul>
+          <a href=""><li>GitHub</li></a>
+          <a href=""><li>Frontend Mentor</li></a>
+          <a href=""><li>LinkedIn</li></a>
+          <a href=""><li>E-mail</li></a>
+          <a href=""><li>Instagram</li></a>
+        </ul>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
