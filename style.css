@@ -1,0 +1,96 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  font-family: "Inter", serif;
+
+  /*Send To Bottom of Screen*/
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(0, 0%, 8%);
+}
+
+main {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main * {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", serif;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile .avatar {
+  width: 80px;
+  margin: 15px;
+  border-radius: 100%;
+}
+
+.profile h1 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin: 0px;
+}
+
+.profile h2 {
+  margin: 0px;
+  margin-bottom: 1.5rem;
+
+  color: hsl(75, 94%, 57%);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.profile p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+ul > a {
+  text-decoration: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+
+  background-color: hsl(0, 0%, 20%);
+
+  font-weight: 400;
+}
